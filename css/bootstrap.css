@@ -1426,6 +1426,7 @@ a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
+  border: 2px solid black;
 }
 
 figure {
@@ -6425,7 +6426,7 @@ a.thumbnail:hover {
 .media,
 .media-body {
   overflow: hidden;
-  zoom: 1;
+  transform-origin: 0 0;
 }
 
 .media-body {
