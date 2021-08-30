@@ -83,13 +83,13 @@ mark {
 }
 
 small {
-  font-size: 80%;
+  font-size: 14px;
 }
 
 sub,
 sup {
   position: relative;
-  font-size: 75%;
+  font-size: 14px;
   line-height: 0;
   vertical-align: baseline;
 }
@@ -1390,7 +1390,7 @@ th {
 }
 
 html {
-  font-size: 10px;
+  font-size: 14px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -1570,7 +1570,7 @@ h2 .small,
 h2 small,
 h3 .small,
 h3 small {
-  font-size: 65%;
+  font-size: 90%;
 }
 
 .h4,
@@ -1595,7 +1595,7 @@ h5 .small,
 h5 small,
 h6 .small,
 h6 small {
-  font-size: 75%;
+  font-size: 90%;
 }
 
 .h1,
@@ -1647,7 +1647,7 @@ p {
 
 .small,
 small {
-  font-size: 85%;
+  font-size: 90%;
 }
 
 .mark,
@@ -1795,6 +1795,13 @@ ul {
   margin-bottom: 10px;
 }
 
+ul, a {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
 ol ol,
 ol ul,
 ul ol,
@@ -1880,7 +1887,7 @@ blockquote .small,
 blockquote footer,
 blockquote small {
   display: block;
-  font-size: 80%;
+  font-size: 90%;
   line-height: 1.42857143;
   color: #777;
 }
@@ -4815,7 +4822,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .input-group-btn {
   position: relative;
-  font-size: 0;
+  font-size: 14px;
   white-space: nowrap;
 }
 
@@ -5864,7 +5871,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .label {
   display: inline;
   padding: 0.2em 0.6em 0.3em;
-  font-size: 75%;
+  font-size: 90%;
   font-weight: 700;
   line-height: 1;
   color: #fff;
