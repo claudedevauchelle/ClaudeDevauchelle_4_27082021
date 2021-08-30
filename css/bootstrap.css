@@ -1796,10 +1796,8 @@ ul {
 }
 
 ul, a {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: 6px;
+  margin: 6px;
 }
 
 ol ol,
