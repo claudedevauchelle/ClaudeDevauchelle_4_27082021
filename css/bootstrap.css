@@ -1795,7 +1795,8 @@ ul {
   margin-bottom: 10px;
 }
 
-ul, a {
+ul,
+a {
   padding: 13px;
   margin: 13px;
 }
